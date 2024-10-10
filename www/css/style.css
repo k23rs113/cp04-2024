@@ -41,27 +41,18 @@
     }
     
     #btnA {
-        color: blue;
         font-size: 20px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
-        font-family: Times;
-        border-radius: 20px;
     }
     
     #btnB {
-        color: blue;
         font-size: 20px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
-        font-family: Times;
-        border-radius: 20px;
     }
 
     #btnC {
-        color: blue;
         font-size: 10px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
-        font-family: Times;
-        border-radius: 20px;
     }
     
     #minute {
@@ -78,4 +69,7 @@
 
     body {
         background-color: skyblue;
+    }
+    button {
+        color: blue;
     }
