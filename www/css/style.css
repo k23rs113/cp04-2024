@@ -61,18 +61,26 @@
     }
 
     #btnC {
-        font-size: 10px;
+        font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
     
+    #btnD {
+        font-size: 20px;
+        position:absolute; top:445px; left:10%; width:28%; height:60px; 
+    }
+
     #minute {
+        color: #696969;
         font-size: 30px;
-        position:absolute; top:450px; left:60px; width:80px; height:40px;   
+        position:absolute; top:450px; left:180px; width:80px; height:40px;
+        box-shadow: 5px, 5px, 5px;   
     }
     
     #second {
+        color: #696969;
         font-size: 30px;
-        position:absolute; top:450px; left:190px; width:80px; height:40px;   
+        position:absolute; top:450px; left:290px; width:80px; height:40px;   
     }
     
     input[type=number] {text-align: right;}
@@ -83,5 +91,5 @@
     button {
         color: blue;
         font-family: Times;
-        border-radius: 20px;
+        border-radius: 30px;
     }
